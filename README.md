@@ -5,6 +5,7 @@
 ### Nombre de la aplicación my_app
 
 - El proyeto cuenta con la implementación del módulo admin.
+- Con la implementación del framework, se obtiene renderización en la aplicación, solo es necesario ejecutar y correrlo en localhost.
 
 - Se realiza de tal manera que los requests [GET] y [POST], se encuentran en las siguientes direcciones para los modelos implementados:
 
