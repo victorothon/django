@@ -8,41 +8,41 @@
 
 - Se realiza de tal manera que los requests [GET] y [POST], se encuentran en las siguientes direcciones para los modelos implementados:
 
-listreviews/
-listtransactions/
-listpropertytypes/
-liststates/
-listcities/
-listcategories/
-listproperties/
+  - listreviews/
+  - listtransactions/
+  - listpropertytypes/
+  - liststates/
+  - listcities/
+  - listcategories/
+  - listproperties/
 
 - Los requests para [PUT], [PATCH] y [DELETE] se encuentran de la siguiente manera:
 
-updatereviews/<id>
-updatetransactions/<id>
-updatepropertytypes/<id>
-updatestates/<id>
-updatecities/<id>
-updatecategories/<id>
-updateproperties/<id>
+  - updatereviews/<id>
+  - updatetransactions/<id>
+  - updatepropertytypes/<id>
+  - updatestates/<id>
+  - updatecities/<id>
+  - updatecategories/<id>
+  - updateproperties/<id>
   
-##[GET]
+## [GET]
 
 Implementación convencional, se obtiene la información en la base de datos
 
-##[POST]
+## [POST]
 
 Implementación convencional, ingresa registro a la base de daros
 
-##[PUT]
+## [PUT]
 
 Implementación convencional, realiza la actualización de un registro por medio de su "id" (requiere de todos los campos)
 
-##[PATCH]
+## [PATCH]
 
 Realiza la actualización por medio de su "id", permite cambios parciales
 
-##[DELETE]
+## [DELETE]
 
 Realiza la eliminación del registro por su "id"
 
